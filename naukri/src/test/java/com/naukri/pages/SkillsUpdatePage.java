@@ -11,7 +11,7 @@ public class SkillsUpdatePage extends JobSearchPage  {
 	
 	
 			
-		//Login
+	    //Login
 		public void loginSkills() throws IOException {
 			driver.findElement(By.xpath("//*[@id=\"login_Layer\"]/div")).click();
 			driver.findElement(By.id("eLoginNew")).sendKeys("swasthikswasthik09876@gmail.com");
