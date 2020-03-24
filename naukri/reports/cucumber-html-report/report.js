@@ -14,9 +14,9 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 6,
-  "name": "Search",
-  "description": "To check that the user can search for job",
-  "id": "naukri-website;search",
+  "name": "To check that the user can search for job",
+  "description": "",
+  "id": "naukri-website;to-check-that-the-user-can-search-for-job",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -27,55 +27,55 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "user launchs the chrome browser for search",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user opens naukri homepage for search",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "user login into the account using \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "user search the job",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 14,
+  "line": 13,
   "name": "",
   "description": "",
-  "id": "naukri-website;search;",
+  "id": "naukri-website;to-check-that-the-user-can-search-for-job;",
   "rows": [
     {
       "cells": [
         "username",
         "password"
       ],
-      "line": 16,
-      "id": "naukri-website;search;;1"
+      "line": 15,
+      "id": "naukri-website;to-check-that-the-user-can-search-for-job;;1"
     },
     {
       "cells": [
         "swasthikswasthik09876@gmail.com",
         "!234567E"
       ],
-      "line": 17,
-      "id": "naukri-website;search;;2"
+      "line": 16,
+      "id": "naukri-website;to-check-that-the-user-can-search-for-job;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 17,
-  "name": "Search",
-  "description": "To check that the user can search for job",
-  "id": "naukri-website;search;;2",
+  "line": 16,
+  "name": "To check that the user can search for job",
+  "description": "",
+  "id": "naukri-website;to-check-that-the-user-can-search-for-job;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -90,17 +90,17 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "user launchs the chrome browser for search",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user opens naukri homepage for search",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "user login into the account using \"swasthikswasthik09876@gmail.com\" and \"!234567E\"",
   "matchedColumns": [
     0,
@@ -109,7 +109,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "user search the job",
   "keyword": "Then "
 });
@@ -117,14 +117,14 @@ formatter.match({
   "location": "JobSearchStep.user_launchs_the_chrome_browser_for_search()"
 });
 formatter.result({
-  "duration": 6031990825,
+  "duration": 6493618073,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_opens_naukri_homepage_for_search()"
 });
 formatter.result({
-  "duration": 19497270595,
+  "duration": 21024035179,
   "status": "passed"
 });
 formatter.match({
@@ -141,42 +141,42 @@ formatter.match({
   "location": "JobSearchStep.user_login_into_the_account_using_and(String,String)"
 });
 formatter.result({
-  "duration": 2016402083,
+  "duration": 1354417904,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_clicks_search()"
 });
 formatter.result({
-  "duration": 36339651667,
+  "duration": 41576330404,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 22,
-  "name": "",
-  "description": "To check that the user is able to upload resume",
-  "id": "naukri-website;",
+  "line": 21,
+  "name": "To check that the user is able to upload resume",
+  "description": "",
+  "id": "naukri-website;to-check-that-the-user-is-able-to-upload-resume",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 21,
+      "line": 20,
       "name": "@tc02_Resume_upload"
     }
   ]
 });
 formatter.step({
-  "line": 25,
+  "line": 23,
   "name": "user launchs the chrome browser for resume",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 24,
   "name": "user opens naukri homepage for resume",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 25,
   "name": "user uploads resume",
   "keyword": "Then "
 });
@@ -184,49 +184,49 @@ formatter.match({
   "location": "ResumeUploadStep.user_launchs_the_chrome_browser_for_resume()"
 });
 formatter.result({
-  "duration": 4977719059,
+  "duration": 4300017484,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_opens_naukri_homepage_for_resume()"
 });
 formatter.result({
-  "duration": 19000333914,
+  "duration": 12102385008,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_uploads_resume()"
 });
 formatter.result({
-  "duration": 25922549648,
+  "duration": 27712757734,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
-  "name": "",
-  "description": "To check that the user is able to upload image",
-  "id": "naukri-website;",
+  "line": 28,
+  "name": "To check that the user is able to upload image",
+  "description": "",
+  "id": "naukri-website;to-check-that-the-user-is-able-to-upload-image",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 29,
+      "line": 27,
       "name": "@tc03_Image_upload"
     }
   ]
 });
 formatter.step({
-  "line": 33,
+  "line": 30,
   "name": "user launchs the chrome browser for image",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
+  "line": 31,
   "name": "user opens naukri homepage for image",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 32,
   "name": "user uploads image",
   "keyword": "Then "
 });
@@ -234,49 +234,49 @@ formatter.match({
   "location": "ImageUploadStep.user_launchs_the_chrome_browser_for_image()"
 });
 formatter.result({
-  "duration": 4314914573,
+  "duration": 4121480758,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_opens_naukri_homepage_for_image()"
 });
 formatter.result({
-  "duration": 20540468601,
+  "duration": 19806765947,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_uploads_image()"
 });
 formatter.result({
-  "duration": 28004172270,
+  "duration": 30795241347,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 38,
-  "name": "",
-  "description": "To check that the user is able to add IT skills",
-  "id": "naukri-website;",
+  "line": 35,
+  "name": "To check that the user is able to add IT skills",
+  "description": "",
+  "id": "naukri-website;to-check-that-the-user-is-able-to-add-it-skills",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 37,
+      "line": 34,
       "name": "@tc_04_Update_skills"
     }
   ]
 });
 formatter.step({
-  "line": 41,
+  "line": 37,
   "name": "user launchs the chrome browser for skills",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 42,
+  "line": 38,
   "name": "user opens naukri homepage for skills",
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
+  "line": 39,
   "name": "user adds skills",
   "keyword": "Then "
 });
@@ -284,21 +284,21 @@ formatter.match({
   "location": "SkillsUpdateStep.user_launchs_the_chrome_browser_for_skills()"
 });
 formatter.result({
-  "duration": 4285780524,
+  "duration": 4178236534,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_opens_naukri_homepage_for_skills()"
 });
 formatter.result({
-  "duration": 19018798491,
+  "duration": 15684104578,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_adds_skills()"
 });
 formatter.result({
-  "duration": 31726153129,
+  "duration": 31362611431,
   "status": "passed"
 });
 });
