@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 17,
-        "name": "",
+        "name": "Search",
         "description": "To check that the user can search for job",
-        "id": "naukri-website;;;2",
+        "id": "naukri-website;search;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6264813245,
+              "duration": 6031990825,
               "status": "passed"
             },
             "line": 9,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 15372644233,
+              "duration": 19497270595,
               "status": "passed"
             },
             "line": 10,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 984176675,
+              "duration": 2016402083,
               "status": "passed"
             },
             "line": 11,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 33367990336,
+              "duration": 36339651667,
               "status": "passed"
             },
             "line": 12,
@@ -80,7 +80,7 @@
           },
           {
             "line": 5,
-            "name": "@tc01_Search"
+            "name": "@tc01_JobSearch"
           }
         ]
       },
@@ -94,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4077579373,
+              "duration": 4977719059,
               "status": "passed"
             },
             "line": 25,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 18566915214,
+              "duration": 19000333914,
               "status": "passed"
             },
             "line": 26,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 21075916402,
+              "duration": 25922549648,
               "status": "passed"
             },
             "line": 27,
@@ -146,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3954632106,
+              "duration": 4314914573,
               "status": "passed"
             },
             "line": 33,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 14967882720,
+              "duration": 20540468601,
               "status": "passed"
             },
             "line": 34,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 28302612920,
+              "duration": 28004172270,
               "status": "passed"
             },
             "line": 35,
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3744095026,
+              "duration": 4285780524,
               "status": "passed"
             },
             "line": 41,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 15029829367,
+              "duration": 19018798491,
               "status": "passed"
             },
             "line": 42,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 29719406683,
+              "duration": 31726153129,
               "status": "passed"
             },
             "line": 43,

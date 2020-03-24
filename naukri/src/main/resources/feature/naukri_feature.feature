@@ -2,8 +2,8 @@
 Feature: naukri website
 
 	
-@tc01_Search
-	Scenario Outline:	
+@tc01_JobSearch
+	Scenario Outline:Search	
 	To check that the user can search for job 
 	
 	Given  user launchs the chrome browser for search 

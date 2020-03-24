@@ -14,15 +14,15 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 6,
-  "name": "",
+  "name": "Search",
   "description": "To check that the user can search for job",
-  "id": "naukri-website;",
+  "id": "naukri-website;search",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
       "line": 5,
-      "name": "@tc01_Search"
+      "name": "@tc01_JobSearch"
     }
   ]
 });
@@ -50,7 +50,7 @@ formatter.examples({
   "line": 14,
   "name": "",
   "description": "",
-  "id": "naukri-website;;",
+  "id": "naukri-website;search;",
   "rows": [
     {
       "cells": [
@@ -58,7 +58,7 @@ formatter.examples({
         "password"
       ],
       "line": 16,
-      "id": "naukri-website;;;1"
+      "id": "naukri-website;search;;1"
     },
     {
       "cells": [
@@ -66,16 +66,16 @@ formatter.examples({
         "!234567E"
       ],
       "line": 17,
-      "id": "naukri-website;;;2"
+      "id": "naukri-website;search;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 17,
-  "name": "",
+  "name": "Search",
   "description": "To check that the user can search for job",
-  "id": "naukri-website;;;2",
+  "id": "naukri-website;search;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -85,7 +85,7 @@ formatter.scenario({
     },
     {
       "line": 5,
-      "name": "@tc01_Search"
+      "name": "@tc01_JobSearch"
     }
   ]
 });
@@ -117,14 +117,14 @@ formatter.match({
   "location": "JobSearchStep.user_launchs_the_chrome_browser_for_search()"
 });
 formatter.result({
-  "duration": 6264813245,
+  "duration": 6031990825,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_opens_naukri_homepage_for_search()"
 });
 formatter.result({
-  "duration": 15372644233,
+  "duration": 19497270595,
   "status": "passed"
 });
 formatter.match({
@@ -141,14 +141,14 @@ formatter.match({
   "location": "JobSearchStep.user_login_into_the_account_using_and(String,String)"
 });
 formatter.result({
-  "duration": 984176675,
+  "duration": 2016402083,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_clicks_search()"
 });
 formatter.result({
-  "duration": 33367990336,
+  "duration": 36339651667,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,21 +184,21 @@ formatter.match({
   "location": "ResumeUploadStep.user_launchs_the_chrome_browser_for_resume()"
 });
 formatter.result({
-  "duration": 4077579373,
+  "duration": 4977719059,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_opens_naukri_homepage_for_resume()"
 });
 formatter.result({
-  "duration": 18566915214,
+  "duration": 19000333914,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_uploads_resume()"
 });
 formatter.result({
-  "duration": 21075916402,
+  "duration": 25922549648,
   "status": "passed"
 });
 formatter.scenario({
@@ -234,21 +234,21 @@ formatter.match({
   "location": "ImageUploadStep.user_launchs_the_chrome_browser_for_image()"
 });
 formatter.result({
-  "duration": 3954632106,
+  "duration": 4314914573,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_opens_naukri_homepage_for_image()"
 });
 formatter.result({
-  "duration": 14967882720,
+  "duration": 20540468601,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_uploads_image()"
 });
 formatter.result({
-  "duration": 28302612920,
+  "duration": 28004172270,
   "status": "passed"
 });
 formatter.scenario({
@@ -284,21 +284,21 @@ formatter.match({
   "location": "SkillsUpdateStep.user_launchs_the_chrome_browser_for_skills()"
 });
 formatter.result({
-  "duration": 3744095026,
+  "duration": 4285780524,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_opens_naukri_homepage_for_skills()"
 });
 formatter.result({
-  "duration": 15029829367,
+  "duration": 19018798491,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_adds_skills()"
 });
 formatter.result({
-  "duration": 29719406683,
+  "duration": 31726153129,
   "status": "passed"
 });
 });
