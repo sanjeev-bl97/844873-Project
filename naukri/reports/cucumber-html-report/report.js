@@ -117,14 +117,14 @@ formatter.match({
   "location": "JobSearchStep.user_launchs_the_chrome_browser_for_search()"
 });
 formatter.result({
-  "duration": 14324583772,
+  "duration": 6264813245,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_opens_naukri_homepage_for_search()"
 });
 formatter.result({
-  "duration": 28935314602,
+  "duration": 15372644233,
   "status": "passed"
 });
 formatter.match({
@@ -141,14 +141,14 @@ formatter.match({
   "location": "JobSearchStep.user_login_into_the_account_using_and(String,String)"
 });
 formatter.result({
-  "duration": 4266965173,
+  "duration": 984176675,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_clicks_search()"
 });
 formatter.result({
-  "duration": 41096904207,
+  "duration": 33367990336,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,21 +184,21 @@ formatter.match({
   "location": "ResumeUploadStep.user_launchs_the_chrome_browser_for_resume()"
 });
 formatter.result({
-  "duration": 5428394235,
+  "duration": 4077579373,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_opens_naukri_homepage_for_resume()"
 });
 formatter.result({
-  "duration": 12646639917,
+  "duration": 18566915214,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_uploads_resume()"
 });
 formatter.result({
-  "duration": 36443800809,
+  "duration": 21075916402,
   "status": "passed"
 });
 formatter.scenario({
@@ -234,21 +234,21 @@ formatter.match({
   "location": "ImageUploadStep.user_launchs_the_chrome_browser_for_image()"
 });
 formatter.result({
-  "duration": 5084467302,
+  "duration": 3954632106,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_opens_naukri_homepage_for_image()"
 });
 formatter.result({
-  "duration": 17527369000,
+  "duration": 14967882720,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_uploads_image()"
 });
 formatter.result({
-  "duration": 30301236947,
+  "duration": 28302612920,
   "status": "passed"
 });
 formatter.scenario({
@@ -284,21 +284,21 @@ formatter.match({
   "location": "SkillsUpdateStep.user_launchs_the_chrome_browser_for_skills()"
 });
 formatter.result({
-  "duration": 4229080462,
+  "duration": 3744095026,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_opens_naukri_homepage_for_skills()"
 });
 formatter.result({
-  "duration": 10313956084,
+  "duration": 15029829367,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_adds_skills()"
 });
 formatter.result({
-  "duration": 40434657955,
+  "duration": 29719406683,
   "status": "passed"
 });
 });

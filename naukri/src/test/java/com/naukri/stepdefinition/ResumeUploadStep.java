@@ -26,7 +26,7 @@ public class ResumeUploadStep {
 	@Then("^user uploads resume$")
 	public void user_uploads_resume() throws Throwable {
 
-		resume.login(excel.getUsername(2),excel.getPassword(2));
+		resume.loginResume(excel.getUsername(2),excel.getPassword(2));
 		resume.resumeUpload();
 	}
 

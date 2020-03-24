@@ -17,10 +17,7 @@ public class JobSearchPage  {
 	
 	static WebDriver driver;
 	
-	public JobSearchPage(WebDriver driver) {
-		JobSearchPage.driver=driver;
-	}
-
+	
 	public void browserLaunch(String browser)
 	{
 		try {
@@ -87,9 +84,7 @@ public class JobSearchPage  {
 		}
 		
 	    
-
-	
-	//Login
+   //Login
 	public void loginSearch(String username,String password) throws IOException {
 		driver.findElement(By.xpath("//*[@id=\"login_Layer\"]/div")).click();
 		driver.findElement(By.id("eLoginNew")).sendKeys(username);

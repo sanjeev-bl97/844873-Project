@@ -24,7 +24,7 @@ public class ImageUploadStep {
 	
 	@Then("^user uploads image$")
 	public void user_uploads_image() throws Throwable {
-		image.login(excel.getUsername(1),excel.getPassword(1));
+		image.loginImage(excel.getUsername(1),excel.getPassword(1));
 		
 		image.imageUpload();
 	}

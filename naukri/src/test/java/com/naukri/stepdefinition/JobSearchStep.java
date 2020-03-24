@@ -1,6 +1,5 @@
 package com.naukri.stepdefinition;
 
-import org.openqa.selenium.WebDriver;
 
 import com.naukri.pages.JobSearchPage;
 import cucumber.api.java.en.Given;
@@ -8,8 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class JobSearchStep {
-	WebDriver driver;
-	JobSearchPage job=new JobSearchPage(driver);
+
+	JobSearchPage job=new JobSearchPage();
 
 	
 	@Given("^user launchs the chrome browser for search$")

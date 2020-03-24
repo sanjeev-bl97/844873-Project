@@ -22,7 +22,7 @@ public class SkillsUpdateStep {
 	
 	@Then("^user adds skills$")
 	public void user_adds_skills() throws Throwable {
-		skills.login();
+		skills.loginSkills();
 		skills.updateSkills();
 	}
 
