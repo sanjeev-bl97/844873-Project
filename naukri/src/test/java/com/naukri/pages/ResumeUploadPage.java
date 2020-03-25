@@ -27,7 +27,7 @@ public class ResumeUploadPage extends JobSearchPage {
 		driver.findElement(By.id("attachCV")).sendKeys(file.getAbsolutePath());                           //Uploads resume
 		Thread.sleep(7000);
 
-		driver.close();
+
 
 	}
 

@@ -29,6 +29,9 @@ public class JobSearchStep {
 	@Then("^user search the job$")
 	public void user_clicks_search() throws Throwable {
 		job.jobSearch();
+		job.screenshot("src\\test\\resources\\Screenshot\\Jobsearch.png");
+		job.closeBrowser();
+		
 	}
 
 }

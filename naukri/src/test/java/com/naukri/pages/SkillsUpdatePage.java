@@ -46,7 +46,7 @@ public class SkillsUpdatePage extends JobSearchPage  {
 		driver.findElement(By.xpath("//*[@id=\"saveITSkills\"]")).click();
 
 		Thread.sleep(4000);
-		driver.close();
+		
 
 	}
 

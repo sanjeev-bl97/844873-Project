@@ -1,11 +1,15 @@
 package com.naukri.pages;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -107,7 +111,20 @@ public class JobSearchPage  {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"acord\"]/div[2]/a[2]")).click();
 		Thread.sleep(4000);
-		driver.close();
+		
 
 	}
+	
+	//Used to take screenshot
+		 public void screenshot(String path) throws IOException {
+			 
+			 TakesScreenshot ts=(TakesScreenshot)driver;
+			    File SrcFile = ts.getScreenshotAs(OutputType.FILE);
+			    FileUtils.copyFile(SrcFile,new File(path));
+		 }
+		 
+		 public void closeBrowser() {
+			 
+			 driver.quit();
+		 }
 }

@@ -24,6 +24,8 @@ public class SkillsUpdateStep {
 	public void user_adds_skills() throws Throwable {
 		skills.loginSkills();
 		skills.updateSkills();
+		skills.screenshot("src\\test\\resources\\Screenshot\\Skills.png");
+		skills.closeBrowser();
 	}
 
 	

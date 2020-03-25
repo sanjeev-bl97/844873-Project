@@ -29,7 +29,7 @@ public class ImageUploadPage extends JobSearchPage {
 		driver.findElement(By.xpath("//*[@id=\"submit\"]")).click();
 		Thread.sleep(3000);
 
-		driver.close();
+		
 
 	}
 

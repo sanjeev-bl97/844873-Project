@@ -27,6 +27,8 @@ public class ImageUploadStep {
 		image.loginImage(excel.getUsername(1),excel.getPassword(1));
 		
 		image.imageUpload();
+	    image.screenshot("src\\test\\resources\\Screenshot\\Image.png");
+		image.closeBrowser();
 	}
 
 }
