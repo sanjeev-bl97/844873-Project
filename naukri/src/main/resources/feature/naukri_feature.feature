@@ -38,3 +38,12 @@ Scenario:	To check that the user is able to add IT skills
 	When  user opens naukri homepage for skills
 	Then user adds skills	
 	
+@tc_05_Job_Alert
+Scenario:	To check that the user is able to create job alert
+	
+	Given  user launchs the chrome browser for job alert
+	When  user opens naukri homepage for job alert
+	Then user create job alert		
+	
+	
+	
