@@ -117,14 +117,14 @@ formatter.match({
   "location": "JobSearchStep.user_launchs_the_chrome_browser_for_search()"
 });
 formatter.result({
-  "duration": 8952349011,
+  "duration": 7240490475,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_opens_naukri_homepage_for_search()"
 });
 formatter.result({
-  "duration": 16949232684,
+  "duration": 11934441678,
   "status": "passed"
 });
 formatter.match({
@@ -141,14 +141,14 @@ formatter.match({
   "location": "JobSearchStep.user_login_into_the_account_using_and(String,String)"
 });
 formatter.result({
-  "duration": 2039719054,
+  "duration": 1771806957,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchStep.user_clicks_search()"
 });
 formatter.result({
-  "duration": 31627527846,
+  "duration": 26415045092,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,21 +184,21 @@ formatter.match({
   "location": "ResumeUploadStep.user_launchs_the_chrome_browser_for_resume()"
 });
 formatter.result({
-  "duration": 4299360900,
+  "duration": 5220453909,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_opens_naukri_homepage_for_resume()"
 });
 formatter.result({
-  "duration": 27104210744,
+  "duration": 12296831038,
   "status": "passed"
 });
 formatter.match({
   "location": "ResumeUploadStep.user_uploads_resume()"
 });
 formatter.result({
-  "duration": 40215485087,
+  "duration": 38529867180,
   "status": "passed"
 });
 formatter.scenario({
@@ -234,23 +234,22 @@ formatter.match({
   "location": "ImageUploadStep.user_launchs_the_chrome_browser_for_image()"
 });
 formatter.result({
-  "duration": 4222895802,
+  "duration": 6466962612,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_opens_naukri_homepage_for_image()"
 });
 formatter.result({
-  "duration": 11005097844,
+  "duration": 22708970197,
   "status": "passed"
 });
 formatter.match({
   "location": "ImageUploadStep.user_uploads_image()"
 });
 formatter.result({
-  "duration": 57196591760,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d80.0.3987.149)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SANJEEV-PC\u0027, ip: \u0027192.168.43.196\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\SANJEEV\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53905}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b593a41ae28cb11ddf949870a3a046de\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.naukri.pages.ImageUploadPage.imageUpload(ImageUploadPage.java:34)\r\n\tat com.naukri.stepdefinition.ImageUploadStep.user_uploads_image(ImageUploadStep.java:29)\r\n\tat ✽.Then user uploads image(src/main/resources/feature/naukri_feature.feature:32)\r\n",
-  "status": "failed"
+  "duration": 27674699034,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 35,
@@ -285,21 +284,21 @@ formatter.match({
   "location": "SkillsUpdateStep.user_launchs_the_chrome_browser_for_skills()"
 });
 formatter.result({
-  "duration": 4580581347,
+  "duration": 4299076098,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_opens_naukri_homepage_for_skills()"
 });
 formatter.result({
-  "duration": 31437874696,
+  "duration": 9224055535,
   "status": "passed"
 });
 formatter.match({
   "location": "SkillsUpdateStep.user_adds_skills()"
 });
 formatter.result({
-  "duration": 53719579344,
+  "duration": 31566892162,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,21 +334,21 @@ formatter.match({
   "location": "JobAlertsStep.user_launchs_the_chrome_browser_for_job_alert()"
 });
 formatter.result({
-  "duration": 6938607777,
+  "duration": 7108310864,
   "status": "passed"
 });
 formatter.match({
   "location": "JobAlertsStep.user_opens_naukri_homepage_for_job_alert()"
 });
 formatter.result({
-  "duration": 25041288580,
+  "duration": 18516338174,
   "status": "passed"
 });
 formatter.match({
   "location": "JobAlertsStep.user_create_job_alert()"
 });
 formatter.result({
-  "duration": 30987305238,
+  "duration": 28948774142,
   "status": "passed"
 });
 });
